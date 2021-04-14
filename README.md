@@ -2,6 +2,8 @@
 
 TUI, a sequence image render for terminals
 
+Code mostly from [`kidJaNateTH/DiscordBadApple`](https://github.com/kidJaNateTH/DiscordBadApple).
+
 ## Get started
 
 WIP, see examples.
