@@ -10,6 +10,9 @@ from tui.processors import generate_frame, GenerateFrameConfiguration
 from tui.renders.Terminal import Terminal
 from multiprocessing import Pool
 
+# import logging
+# logging.basicConfig(level=logging.DEBUG)
+
 def open_and_generate_frame(i: int):
     # print(f"processing: {i}")
     img = Image.open(f"frames/frame{i}.jpg")
