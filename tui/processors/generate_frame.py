@@ -1,4 +1,4 @@
-from tuiviewer.prog.utilities.sequence_table import create_sequenced_table
+from ..utilities.sequence_table import create_sequenced_table
 from typing import NamedTuple
 from PIL.Image import Image
 from .pix2char import pix2char

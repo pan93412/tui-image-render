@@ -1,7 +1,14 @@
 from abc import ABC, abstractmethod
 from typing import Any
 
-Frames = list[str]
+'''
+A frame.
+'''
+Frame = str
+'''
+A list of frames.
+'''
+Frames = list[Frame]
 
 class Renders(ABC):
     def configure(self, configration: Any):
@@ -9,4 +16,8 @@ class Renders(ABC):
 
     @abstractmethod
     def render(self, frames: Frames):
+        pass
+
+    @abstractmethod
+    def render_frame(self, frame: Frame):
         pass
