@@ -21,7 +21,7 @@ class Terminal(Renders):
         map(self.render_frame, frames)
 
         logger.info("All frames are rendered.")
-        logger.debug(" <- Terminal.configure()")
+        logger.debug(" <- Terminal.render()")
 
     def render_frame(self, frame: Frame) -> None:
         logger.debug(" -> Terminal.render_frame()")
